@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="InventoryPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="263.0" layoutY="29.0" text="Inventory" />
+      <Button id="addItemToInventoryButton" fx:id="addItemToInventoryButton" layoutX="153.0" layoutY="55.0" mnemonicParsing="false" onAction="#addItemHandler" prefHeight="73.0" prefWidth="98.0" text="Add Item" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button id="updateQuantitiesInInventoryButton" fx:id="updateQuantitiesInInventoryButton" layoutX="329.0" layoutY="55.0" mnemonicParsing="false" onAction="#updateQuantitiesHandler" prefHeight="73.0" prefWidth="137.0" text="Update Quantities" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label id="totalCaloriesDisplayerLabel" fx:id="totalCaloriesLabel" layoutX="153.0" layoutY="149.0" prefHeight="109.0" prefWidth="177.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label id="numOfPeopleSupportedLabel" fx:id="numPeopleSupportableLabel" layoutX="329.0" layoutY="149.0" prefHeight="109.0" prefWidth="263.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label id="totalCaloriesDisplayerLabel" fx:id="foodGroupCaloriesLabel" layoutX="153.0" layoutY="258.0" prefHeight="109.0" prefWidth="177.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
